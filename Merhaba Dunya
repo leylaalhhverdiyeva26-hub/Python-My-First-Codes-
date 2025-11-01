@@ -1,0 +1,3 @@
+mesaj = "Merhaba"
+mesaj2 = "Dunya"
+print(mesaj+" "+mesaj2)
