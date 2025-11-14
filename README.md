@@ -2,7 +2,7 @@
 Python dərsləri zamanı yazdığım bütün tapşırıqlar və kiçik layihələr
 ## 📝 Dərs 1: Stringlər (Mətnlər) və Onlarla İşləmə
 
-Bu repozitoriyadakı `03_String_Indeksleme.py` faylı, Python öyrənməyə başladığım ilk dərslərdən biridir və **string (mətn)** tipli məlumatlarla necə işləməli olduğumuzu göstərir.
+Bu repozitoriyadakı Python öyrənməyə başladığım ilk dərslərdən biridir və **string (mətn)** tipli məlumatlarla necə işləməli olduğumuzu göstərir.
 
 Buradakı kiçik kod parçaları ilə hansı mövzuları praktikada öyrəndim:
 
@@ -21,6 +21,7 @@ Buradakı kiçik kod parçaları ilə hansı mövzuları praktikada öyrəndim:
 5.  **Ölçmələr:**
     * `len()` funksiyası ilə dəyişənlərin (stringlərin) ümumi simvol sayını tapmağı öyrəndim.
     * `"Mətn" * 10` kimi sadə bir əməliyyatla mətnin bir neçə dəfə təkrarlanmasını gördüm.
+**Müvafiq Kod Faylı:** [03_String_Indeksleme.py](03_String_Indeksleme.py)
 
 
 
