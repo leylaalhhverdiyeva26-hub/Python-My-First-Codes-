@@ -66,6 +66,8 @@ Bu operatorlar iki şeyi müqayisə edir və həmişə bizə **"Hə" (True)** v�
 | `<` / `>` | Kiçikdirmi / Böyükdürmü? |
 | `<=` / `>=` | Kiçik və ya Bərabərdirmi / Böyük və ya Bərabərdirmi?
 
-**Müvafiq Kod Faylı:** [03_String_Indeksleme.py](03_String_Indeksleme.py)
+
+**Bu Dərsə Aid Kod:** [integer.py](integer.py)
+
 
 
