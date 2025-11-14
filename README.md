@@ -24,7 +24,7 @@ Buradakı kiçik kod parçaları ilə hansı mövzuları praktikada öyrəndim:
 
 
 
-## 🔢 Dərs 2: Ədədlərlə Oyunlar, Hesablamalar və Müqayisələr
+## 🔢 Dərs 2: İntegerr, Hesablamalar və Müqayisələr
 
 Bu dərsdə Python-da əsas rəqəmlərlə necə işləməyi öyrəndim.
 
