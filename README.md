@@ -67,7 +67,7 @@ Bu operatorlar iki şeyi müqayisə edir və həmişə bizə **"Hə" (True)** v�
 | `<=` / `>=` | Kiçik və ya Bərabərdirmi / Böyük və ya Bərabərdirmi?
 
 
-**Bu Dərsə Aid Kod:** [integer.py](integer.py)
+**Bu Dərsə Aid Kod:** [İnteger.py](İnteger.py)
 
 
 
