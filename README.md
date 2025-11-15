@@ -1,27 +1,29 @@
 # Python-My-First-Codes-
-Python dərsləri zamanı yazdığım bütün tapşırıqlar və kiçik layihələr
-## 📝 Dərs 1: Stringlər (Mətnlər) və Onlarla İşləmə
+All the assignments and small projects I wrote during my Python lessons.
+## 📝 Lesson 1: Strings and Working with Them
 
-Bu repozitoriyadakı Python öyrənməyə başladığım ilk dərslərdən biridir və **string (mətn)** tipli məlumatlarla necə işləməli olduğumuzu göstərir.
+This is one of the first lessons where I started learning Python in this repository, demonstrating how to work with **string** data types.
 
-Buradakı kiçik kod parçaları ilə hansı mövzuları praktikada öyrəndim:
+Here are the topics I learned in practice with these small code snippets:
 
-### Nəyi öyrəndim?
+### What Did I Learn?
 
-1.  **Mətnləri Birləşdirmək:**
-    * Bir neçə mətn dəyişənini (`mesaj`, `mesaj2`) götürüb `+` operatoru ilə onları necə bir cümləyə çevirməyi öyrəndim.
-2.  **Mətnin İçində "Gəzmək":**
-    * **İndeksləmə:** Mətnin istənilən simvolunu mövqeyinə görə necə çıxaracağımı (məsələn, `mesaj[0:4]`) öyrəndim.
-    * **Tərs İndeksləmə:** Mətnin sonundan geriyə doğru saymağı (məsələn, sondan ikinci hərfi almaq üçün `mesaj[-2]`) tətbiq etdim.
-    * **Mətnin Tərs Çevrilməsi:** `[::-1]` kimi sehrli bir üsulla bütün mətni asanlıqla tərsinə çevirməyi bacardım.
-3.  **Mətnin Formatlanması (Dəyişdirilməsi):**
-    * Bütün hərfləri böyütmək (`.upper()`), kiçiltmək (`.lower()`), və ya yalnız ilk hərfi böyütmək (`.capitalize()`) kimi hazır metodları istifadə etdim.
-4.  **Mətnin Yoxlanılması:**
-    * `startswith()` və `endswith()` metodları ilə mətnin müəyyən bir hissə ilə başlayıb-bitmədiyini yoxladım. Bu, "True" (doğru) və ya "False" (yanlış) cavabını verir.
-5.  **Ölçmələr:**
-    * `len()` funksiyası ilə dəyişənlərin (stringlərin) ümumi simvol sayını tapmağı öyrəndim.
-    * `"Mətn" * 10` kimi sadə bir əməliyyatla mətnin bir neçə dəfə təkrarlanmasını gördüm.
-**Müvafiq Kod Faylı:** [03_String_Indeksleme.py](03_String_Indeksleme.py)
+1.  **Concatenating Strings:**
+    * I learned how to take a few string variables (`mesaj`, `mesaj2`) and turn them into a single sentence using the `+` operator.
+2.  **"Navigating" Within a String:**
+    * **Indexing:** I learned how to extract any character of a string by its position (e.g., `mesaj[0:4]`).
+    * **Reverse Indexing:** I practiced counting backward from the end of the string (e.g., `mesaj[-2]` to get the second-to-last letter).
+    * **String Reversal:** I managed to easily reverse the entire string using a "magic" method like `[::-1]`.
+3.  **String Formatting (Modification):**
+    * I used built-in methods like making all letters uppercase (`.upper()`), lowercase (`.lower()`), or only capitalizing the first letter (`.capitalize()`).
+4.  **String Verification/Checking:**
+    * I checked if a string starts or ends with a specific part using the `startswith()` and `endswith()` methods. This returns a "True" or "False" answer.
+5.  **Measurements and Repetition:**
+    * I learned how to find the total number of characters in variables (strings) using the `len()` function.
+    * I saw how to repeat a string multiple times with a simple operation like `"Mətn" * 10`.
+
+**Müvafiq kod faylı
+[03_String_Indeksleme.py](03_String_Indeksleme.py)
 
 
 
