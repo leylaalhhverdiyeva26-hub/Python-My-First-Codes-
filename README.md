@@ -25,50 +25,54 @@ Here are the topics I learned in practice with these small code snippets:
 **Müvafiq kod faylı
 [03_String_Indeksleme.py](03_String_Indeksleme.py)
 
+
+### 2. Math Operations and Shortcuts
 ## Lesson 2: Integers, Calculations, and Comparisons
 
 In this lesson, I learned how to work with basic numbers in Python.
 
 ### 1. Numbers and Types
 
-| Python Type | Description | Example |
-| :--- | :--- | :--- |
-| **int** (Integer) | Whole numbers. | 5, 8 |
-| **float** (Floating Point Number) | Numbers with a fractional part. | 9.5, -2.17 |
+* **int (Integer):** Whole numbers. Example: 5, 8.
+* **float (Floating Point Number):** Numbers with a fractional part. Example: 9.5, -2.17.
+* **Type Checking:** The command `print(type(number1))` asks Python: "What is the data type of this variable?"
 
-Type Checking: The command print(type(number1)) asks Python: "What is the data type of this variable?"
+---
 
 ### 2. Math Operations and Shortcuts
 
-| Operator | What it Does | Example | Shortcut (Augmented Assignment) | Description |
-| :--- | :--- | :--- | :--- | :--- |
-| ** | Raises to the power. | 5**100 | l *= 5 | Short Assignment. A shortcut to multiply the variable by a value and assign the result back to the variable (i.e., l = l * 5). |
-| // | Floor Division. It discards the fractional part of the division, returning only the integer part. | 14 // 6 = 2 |
+* **`**`**: Raises to the power (Exponentiation). Example: `5**100`.
+* **`//`**: **Floor Division**. It discards the fractional part of the division, returning only the integer part. Example: `14 // 6 = 2`.
+* **`*=`**: **Short Assignment**. A shortcut to multiply the variable by a value and assign the result back to the variable (i.e., `l *= 5` means `l = l * 5`).
+
+---
 
 ### 3. Built-in Helper Functions
 
 These functions add flexibility to our code:
 
-* **abs()**: Always returns the absolute positive value (modulus) of a number, regardless of whether the number is negative or not.
-* **round()**: Rounds fractional numbers. For example, it converts 9.5 to 10. We can also specify how many decimal places to keep (e.g., round(number, 3) for 3 places).
+* **`abs()`**: Returns the **absolute positive value (modulus)** of a number.
+* **`round()`**: Rounds fractional numbers. We can also specify the number of decimal places (e.g., `round(number, 3)`).
+
+---
 
 ### 4. Type Casting
 
-Sometimes it is necessary to convert a value of one type to another:
+Converting a value from one type to another:
 
-* **int()**: Converts a string ("100") or a float into an integer.
-* **str()**: Converts any number (or other value) into a string.
+* **`int()`**: Converts a string (`"100"`) or a float into an **integer**.
+* **`str()`**: Converts any number (or other value) into a **string**.
+
+---
 
 ### 5. Comparison Operators (Asking Questions)
 
-These operators compare two things and always return an answer of True (Yes) or False (No).
+These operators compare two things and always return **`True`** or **`False`**.
 
-| Operator | Meaning |
-| :--- | :--- |
-| **==** | Is it Equal to? |
-| **!=** | Is it Not Equal to? |
-| **< / >** | Is it Less Than / Greater Than? |
-| **<= / >=** | Is it Less Than or Equal to / Greater Than or Equal to?
+* **`==`**: Is it Equal to?
+* **`!=`**: Is it Not Equal to?
+* **`< / >`**: Is it Less Than / Greater Than?
+* **`<= / >=`**: Is it Less Than or Equal to / Greater Than or Equal to?
 
 **Bu Dərsə Aid Kod:** [İnteger.py](İnteger.py)
 
