@@ -25,50 +25,50 @@ Here are the topics I learned in practice with these small code snippets:
 **Müvafiq kod faylı
 [03_String_Indeksleme.py](03_String_Indeksleme.py)
 
+## Lesson 2: Integers, Calculations, and Comparisons
 
+In this lesson, I learned how to work with basic numbers in Python.
 
-## 🔢 Dərs 2: İntegerr, Hesablamalar və Müqayisələr
+### 1. Numbers and Types
 
-Bu dərsdə Python-da əsas rəqəmlərlə necə işləməyi öyrəndim.
+| Python Type | Description | Example |
+| :--- | :--- | :--- |
+| **int** (Integer) | Whole numbers. | 5, 8 |
+| **float** (Floating Point Number) | Numbers with a fractional part. | 9.5, -2.17 |
 
- 1. Rəqəmlər və Tiplər 
+Type Checking: The command print(type(number1)) asks Python: "What is the data type of this variable?"
 
-* **int (Tam Ədəd):** Tam rəqəmlər. Məsələn, `5`, `8`.
-* **float (Kəsr Ədəd):** Kəsr hissəsi olan rəqəmlər. Məsələn, `9.5`, `-2.17`.
+### 2. Math Operations and Shortcuts
 
-**Tip yoxlaması:** `print(type(number1))` əmri Python-a sual verir: "Bu dəyişən nə tipdədir?"
+| Operator | What it Does | Example | Shortcut (Augmented Assignment) | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| ** | Raises to the power. | 5**100 | l *= 5 | Short Assignment. A shortcut to multiply the variable by a value and assign the result back to the variable (i.e., l = l * 5). |
+| // | Floor Division. It discards the fractional part of the division, returning only the integer part. | 14 // 6 = 2 |
 
-## 2. Riyaziyyat Əməliyyatları və Qısa Yollar 
+### 3. Built-in Helper Functions
 
-| Operator | Nə İş Görür? | Nümunə 
-| `**` | Qüvvətə yüksəldir. | `5**100` |
-| `//` | Tam Bölmə. Bölmənin kəsr hissəsini atıb, sadəcə **tam hissəsini** qaytarır. | `14 // 6` = 2 |
-| `*=` | Qısa Təyinat. Dəyişənin özünü vurub nəticəni yenidən ona təyin etmək üçün qısa yoldur. | `l *= 5` (yəni `l = l * 5`) |
+These functions add flexibility to our code:
 
-### 3. Daxili Köməkçi Funksiyalar 
+* **abs()**: Always returns the absolute positive value (modulus) of a number, regardless of whether the number is negative or not.
+* **round()**: Rounds fractional numbers. For example, it converts 9.5 to 10. We can also specify how many decimal places to keep (e.g., round(number, 3) for 3 places).
 
-Bu funksiyalar kodumuzda çeviklik yaradır:
+### 4. Type Casting
 
-* **`abs()`:** Rəqəmin mənfi olub-olmamasına baxmayaraq, həmişə onun **mütləq müsbət dəyərini** (modulunu) qaytarır.
-* **`round()`:** Kəsr ədədləri yuvarlaqlaşdırır. Məsələn, `9.5`-i `10`-a çevirir. Onluq hissədən neçə rəqəm qalmasını da göstərə bilərik (məsələn, 3 rəqəm: `round(number, 3)`).
+Sometimes it is necessary to convert a value of one type to another:
 
-### 4. Tip Çevirmə (Type Casting) 
+* **int()**: Converts a string ("100") or a float into an integer.
+* **str()**: Converts any number (or other value) into a string.
 
-Bəzən bir tipli dəyəri digərinə çevirmək lazım gəlir:
+### 5. Comparison Operators (Asking Questions)
 
-* **`int()`:** Bir sətiri (`"100"`) və ya kəsr ədədi **tam ədədə** çevirir.
-* **`str()`:** Hər hansı bir rəqəmi (və ya başqa dəyəri) **sətirə** çevirir.
+These operators compare two things and always return an answer of True (Yes) or False (No).
 
-### 5. Müqayisə Operatorları (Sual Sorğulamaq) 
-
-Bu operatorlar iki şeyi müqayisə edir və həmişə bizə **"Hə" (True)** və ya **"Yox" (False)** cavabını qaytarır.
-
-| Operator | Mənası |
-| `==` | Bərabərdirmi? |
-| `!=` | Bərabər deyilmi? |
-| `<` / `>` | Kiçikdirmi / Böyükdürmü? |
-| `<=` / `>=` | Kiçik və ya Bərabərdirmi / Böyük və ya Bərabərdirmi?
-
+| Operator | Meaning |
+| :--- | :--- |
+| **==** | Is it Equal to? |
+| **!=** | Is it Not Equal to? |
+| **< / >** | Is it Less Than / Greater Than? |
+| **<= / >=** | Is it Less Than or Equal to / Greater Than or Equal to?
 
 **Bu Dərsə Aid Kod:** [İnteger.py](İnteger.py)
 
